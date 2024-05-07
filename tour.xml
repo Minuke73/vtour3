@@ -37,12 +37,12 @@
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="74.423" atv="18.764" distorted="false" zoom="false" linkedscene="scene_10-3" />
 		<hotspot type="image" name="spot3" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="61.459" atv="14.569" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
 		<hotspot name="text" style="custom_hotspotext"  html="두물머리 " ath="60.800" atv="9.569" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
-		<hotspot type="text" name="spot4" style="custom_hotspotext2"  html="남한강 " ath="-31.844" atv="9.734" distorted="false" zoom="false" />
-		<hotspot type="text" name="spot5" style="custom_hotspotext2"  html="북한강 " ath="85.683" atv="12.371" distorted="false" zoom="false" />
+		<hotspot type="text" name="spot4" style="custom_hotspotext2"  html="북한강 " ath="-31.844" atv="9.734" distorted="false" zoom="false" />
+		<hotspot type="text" name="spot5" style="custom_hotspotext3"  html="남한강 " ath="91" atv="22" distorted="false" zoom="false" />
 
 	</scene>
 
-	<scene name="scene_10-2" title="두물머리 1" onstart="" thumburl="panos/10-2.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_10-2" title="두물머리(1)" onstart="" thumburl="panos/10-2.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -58,7 +58,7 @@
 
 	</scene>
 
-	<scene name="scene_10-3" title="두물머리 2" onstart="" thumburl="panos/10-3.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_10-3" title="두물머리(2)" onstart="" thumburl="panos/10-3.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 

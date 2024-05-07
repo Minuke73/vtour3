@@ -23,6 +23,12 @@
 		shadow="1.0"
 		enabled="false"
         padding="10"/>
+		
+	<style name="custom_hotspotext3" type="text" autoalpha="false" alpha="1" bg="false" bgcolor="transparent"
+		css="font-style: italic; font-family:Noto Sans KR; font-size:26px; color:#ffffff; font-weight:400;"
+		shadow="1.0"
+		enabled="false"
+        padding="10"/>
 
 	<action name="skin_hotspotstyle_setup" scope="local">
 		if(isvalue(caller.linkedscene) AND skin_settings.tooltips_hotspots,
